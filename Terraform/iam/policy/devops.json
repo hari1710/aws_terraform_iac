@@ -1,0 +1,42 @@
+{
+"Version" : "2012-10-17",
+"Statement" : [
+    {
+    "Sid" : "FullAccessToALL_Services",
+    "Effect" : "Allow",
+    "Action" : [
+        "acm:*",
+        "aps:*",
+        "autoscaling-plans:*",
+        "autoscaling:*",
+        "cloudformation:*",
+        "cloudtrail:*",
+        "cloudwatch:*",
+        "config:*",
+        "cur:*",
+        "dynamodb:*",
+        "ec2:*",
+        "ecr:*",
+        "ecs:*",
+        "eks:*",
+        "elasticfilesystem:*",
+        "elasticloadbalancing:*",
+        "iam:*",
+        "imagebuilder:*",
+        "kms:*",
+        "lambda:*",
+        "logs:*",
+        "route53:*",
+        "s3:*",
+        "secretsmanager:*",
+        "servicecatalog:*",
+        "sns:*",
+        "ssm:*",
+        "sts:*",
+        "support:*"
+    ],
+    "Resource" : "*"
+    }
+]
+}
+  
